@@ -129,10 +129,10 @@ form button{
 }
 @media (max-width:310px) {
     form{
-        width: 270px;
+        width: 240px;
     }
 
     form button{
-        right: 100px;
+        right: 130px;
     }
 }
