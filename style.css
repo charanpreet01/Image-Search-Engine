@@ -79,8 +79,14 @@ form button{
 #search-result img{
     width: 100%;
     height: 230px;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 7px;
+}
+
+@media (max-width:600px) {
+    #search-result{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width:440px) {
@@ -110,5 +116,23 @@ form button{
 
     form button{
         right: 60px;
+    }
+}
+@media (max-width:340px) {
+    form{
+        width: 300px;
+    }
+
+    form button{
+        right: 80px;
+    }
+}
+@media (max-width:310px) {
+    form{
+        width: 270px;
+    }
+
+    form button{
+        right: 100px;
     }
 }
